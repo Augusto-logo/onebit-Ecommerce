@@ -1,11 +1,9 @@
-import Header from './components/Header'
-
+import NavBar from './components/NavBar'
 function App() {
 
   return (
     <div className='h-screen w-screen bg-gray-400'>
-      <Header />
-      Voltar ao normal
+      <NavBar />
     </div>
   )
 }
