@@ -1,13 +1,11 @@
-import './App.css'
+import Header from './components/Header'
 
 function App() {
 
   return (
-    <>
-      <div className=''>
-        Hello world
-      </div>
-    </>
+    <div className='h-screen w-screen bg-gray-400'>
+      <Header />
+    </div>
   )
 }
 
