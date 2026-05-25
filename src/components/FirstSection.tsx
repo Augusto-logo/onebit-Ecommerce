@@ -2,10 +2,12 @@ export default function FirstSection() {
   return (
     <div>
 
-      <section className="bg-black text-white p-5">
+      <section className="bg-black text-white p-5 w-full">
         {/* lembre-se de configurar a largura do container. DE TODOS OS CONTAINERS (w-full, w-11/12, w-10/12, etc) */}
         {/* utilizar mediaquery, md: / lg: / xl: */}
         {/* Flexbox / MediaQuery / Definir largura dos containers */}
+        <div className="w-11/12 md:w-10/12 lg:w-9/12 mx-auto">
+        <div className="w-auto">
         <p className="text-orange-500">
           NOVA COLEÇÃO
         </p>
@@ -18,7 +20,8 @@ export default function FirstSection() {
           Tênis desenvolvidos para máxima performance,
           conforto e estilo.
         </p>
-        <div className="mt-6 flex flex-col gap-3">
+        </div>
+        <div className="mt-6 flex flex-col gap-3 w-auto md:flex-row">
           <button className="bg-orange-500 p-3 rounded">
             COMPRAR AGORA
           </button>
@@ -26,40 +29,43 @@ export default function FirstSection() {
             VER COLEÇÃO
           </button>
         </div>
+        </div>
+        <div className="w-auto md:flex-row">
         <img
           src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop"
           alt="Tênis"
           className="w-full mt-8 rounded"
         />
-        <div className="grid grid-cols-2 gap-4 mt-8">
+        </div>
+        <div className="flex flex-wrap gap-4 mt-8">
           <div>
-            <h4 className="text-orange-500">
+            <p className="text-orange-500">
               Frete Grátis
-            </h4>
+            </p>
             <p className="text-gray-400 text-sm">
               Acima de R$199
             </p>
           </div>
           <div>
-            <h4 className="text-orange-500">
+            <p className="text-orange-500">
               10x sem juros
-            </h4>
+            </p>
             <p className="text-gray-400 text-sm">
               No cartão
             </p>
           </div>
           <div>
-            <h4 className="text-orange-500">
+            <p className="text-orange-500">
               Troca Fácil
-            </h4>
+            </p>
             <p className="text-gray-400 text-sm">
               Até 7 dias
             </p>
           </div>
           <div>
-            <h4 className="text-orange-500">
+            <p className="text-orange-500">
               Compra Segura
-            </h4>
+            </p>
             <p className="text-gray-400 text-sm">
               100% protegida
             </p>
