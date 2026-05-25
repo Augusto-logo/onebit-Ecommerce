@@ -3,6 +3,9 @@ export default function FirstSection() {
     <div>
 
       <section className="bg-black text-white p-5">
+        {/* lembre-se de configurar a largura do container. DE TODOS OS CONTAINERS (w-full, w-11/12, w-10/12, etc) */}
+        {/* utilizar mediaquery, md: / lg: / xl: */}
+        {/* Flexbox / MediaQuery / Definir largura dos containers */}
         <p className="text-orange-500">
           NOVA COLEÇÃO
         </p>
