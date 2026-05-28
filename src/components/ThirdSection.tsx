@@ -14,9 +14,9 @@ export default function ThirdSection() {
 
       </div>
 
-      <div className="flex flex-col gap-10 w-full">
+      <div className="flex flex-wrap gap-10 mt-8">
 
-        <div className="flex flex-col items-center text-center">
+        <div className="flex flex-wrap gap-10 mt-8">
 
           <p className="text-5xl mb-5">
             💎
@@ -32,7 +32,7 @@ export default function ThirdSection() {
 
         </div>
 
-        <div className="flex flex-col items-center text-center">
+        <div className="flex flex-wrap gap-10 mt-8">
 
           <p className="text-5xl mb-5">
             🛡️
@@ -48,7 +48,7 @@ export default function ThirdSection() {
 
         </div>
 
-        <div className="flex flex-col items-center text-center">
+        <div className="flex flex-wrap gap-10 mt-8">
 
           <p className="text-5xl mb-5">
             🏆
