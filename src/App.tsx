@@ -1,6 +1,8 @@
 import FirstSection from './components/FirstSection'
 import NavBar from './components/NavBar'
 import SecondSeciton from './components/SecondSection'
+import ThirdSection from './components/ThirdSection'
+import Depoimentos from './components/Depoimentos'
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
       <NavBar />
       <FirstSection />
       <SecondSeciton />
+      <ThirdSection />
+      <Depoimentos />
     </div>
   )
 }
