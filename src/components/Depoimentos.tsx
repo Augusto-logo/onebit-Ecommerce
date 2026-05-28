@@ -2,7 +2,7 @@ export default function Depoimentos() {
   return (
     <section className="bg-white text-black px-5 py-20">
 
-      <div className="flex flex-wrap gap-10 mt-8 w-full">
+      <div className="flex flex-wrap gap-10 mt-8 w-full flex-col items-center">
         
         <p className="text-orange-500 font-bold uppercase text-sm">
           Depoimentos
