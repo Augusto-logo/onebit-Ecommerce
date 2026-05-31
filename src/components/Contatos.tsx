@@ -2,7 +2,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaInstagram } from "react
 
 export default function Contatos() {
   return (
-    <section className="bg-[#09090B] text-white w-full py-16">
+    <section id="contato" className="bg-[#09090B] text-white w-full py-16">
       <div className="w-10/12 max-w-200 m-auto border border-orange-600 rounded-2xl p-8">
 
         <div className="flex flex-col items-center gap-2 mb-8">

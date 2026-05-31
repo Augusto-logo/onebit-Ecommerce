@@ -54,7 +54,7 @@ const Carrosell = () => {
             <p className='font-bold text-lg'>{item.name}</p>
             <p className='text-gray-600 font-light text-sm'>{item.description}</p>
           </div>
-          <button className='border border-black p-2 rounded-lg w-full mt-auto cursor-pointer'>
+          <button className='border border-black p-2 rounded-lg w-full mt-auto cursor-pointer hover:bg-gray-200 transition-colors duration-300'>
             <span className='font-semibold'>VER MODELOS</span>
           </button>
         </div>
@@ -65,14 +65,14 @@ const Carrosell = () => {
 
 export default function SecondSection() {
   return (
-    <div className='bg-white w-full'>
+    <section id="produtos" className='bg-white w-full'>
       <div className='bg-white w-11/12 flex flex-col gap-4 m-auto'>
         <div className='flex flex-row gap-2 justify-between items-center'>
           <div>
             <span className='text-orange-500 font-semibold'>ESCOLHA O SEU</span>
             <h2 className='text-3xl font-bold pt-2'>Nossos Tênis</h2>
           </div>
-          <div className='p-2 border border-black rounded-lg cursor-pointer'>
+          <div className='p-2 border border-black rounded-lg cursor-pointer hover:bg-gray-200 transition-colors duration-300'>
             <span className='font-semibold text-sm'>VER TODOS</span>
           </div>
         </div>
@@ -80,6 +80,6 @@ export default function SecondSection() {
           <Carrosell />
         </div>
       </div>
-    </div>
+    </section>
   )
 }

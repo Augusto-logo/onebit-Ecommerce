@@ -1,6 +1,6 @@
 export default function ThirdSection() {
   return (
-    <section className="bg-black text-white px-5 py-20 flex flex-col items-center gap-10 w-full">
+    <section id="diferenciais" className="bg-black text-white px-5 py-20 flex flex-col items-center gap-10 w-full">
 
       <div className="flex flex-col items-center mb-14">
 
