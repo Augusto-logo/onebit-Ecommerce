@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import SecondSeciton from './components/SecondSection'
 import ThirdSection from './components/ThirdSection'
 import Depoimentos from './components/Depoimentos'
+import Contatos from './components/Contatos'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <SecondSeciton />
       <ThirdSection />
       <Depoimentos />
+      <Contatos />
       <Footer />
     </div>
   )
