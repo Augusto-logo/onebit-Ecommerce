@@ -1,6 +1,6 @@
 export default function Depoimentos() {
   return (
-    <section id="depoimentos" className="bg-white text-black px-5 py-20">
+    <section id="depoimentos" className="bg-white text-black px-5 py-20 w-full flex flex-col items-center">
 
       <div className="flex flex-wrap gap-10 mt-8 w-full flex-col items-center">
         
@@ -14,7 +14,7 @@ export default function Depoimentos() {
 
       </div>
 
-      <div className="flex flex-wrap gap-10 mt-8 w-full">
+      <div className="flex flex-wrap gap-10 mt-8 w-full items-center justify-center">
 
         <div className="border rounded-3xl p-6 shadow-lgl">
 
