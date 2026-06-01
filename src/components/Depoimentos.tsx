@@ -2,14 +2,14 @@ export default function Depoimentos() {
   return (
     <section id="depoimentos" className="bg-white text-black px-5 py-20 w-full flex flex-col items-center">
 
-      <div className="flex flex-wrap gap-10 mt-8 w-full flex-col items-center">
+      <div className="flex flex-col flex-wrap gap-4 mb-4 w-full items-center justify-center">
         
-        <p className="text-orange-500 font-bold uppercase text-sm">
+        <p className="text-orange-500 font-bold uppercase text-sm lg:text-4xl">
           Depoimentos
         </p>
 
-        <p className="text-4xl font-black mt-3">
-          Clientes
+        <p className="text-4xl font-black text-center lg:text-7xl ">
+          O que nossos clientes dizem
         </p>
 
       </div>

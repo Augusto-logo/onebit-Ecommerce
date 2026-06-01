@@ -64,7 +64,7 @@ export default function FirstSection() {
             </div>
           </div>
         </div>
-        <div className="max-h-72 w-full max-w-140 m-auto md:m-0">
+        <div className="max-h-72 w-full max-w-140 m-auto md:m-0 lg:max-h-96">
           <img
             src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop"
             alt="Tênis"

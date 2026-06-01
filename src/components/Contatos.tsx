@@ -6,8 +6,8 @@ export default function Contatos() {
       <div className="w-10/12 max-w-200 m-auto border border-orange-600 rounded-2xl p-8">
 
         <div className="flex flex-col items-center gap-2 mb-8">
-          <p className="text-xs text-orange-500 font-bold uppercase ">Entre em Contato</p>
-          <p className="font-bold text-3xl">Fale Conosco</p>
+          <p className="text-xs text-orange-500 font-bold uppercase lg:text-2xl ">Entre em Contato</p>
+          <p className="font-bold text-3xl lg:text-5xl">Fale Conosco</p>
         </div>
 
         <div className="flex flex-col items-center gap-8 md:flex-row">
@@ -30,7 +30,7 @@ export default function Contatos() {
               </button>
             </form>
           </div>
-          <div className="md:w-1/2 md:flex md:flex-col md:gap-6">
+          <div className="flex flex-col gap-5 md:w-1/2">
             <div className="bg-[#18181B] rounded-2xl p-4 max-w-64 md:max-w-none">
               <p className="text-1xl font-bold">WhatsApp</p>
               <p className="text-xs text-gray-400 font-light pt-2 pb-3">Clique no botão abaixo e fale com nossa equipe.</p>

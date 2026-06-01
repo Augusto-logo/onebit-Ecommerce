@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-full bg-black text-white flex items-center justify-center py-8">
+    <footer className="w-full bg-black text-white flex flex-col gap-2 items-center justify-center py-8">
       <div className="w-11/12 py-2 flex flex-row flex-wrap  justify-between gap-4">
         <div className="max-w-48">
           <p className="text-orange-600 font-bold text-2xl">RUNMAX</p>
@@ -31,8 +31,9 @@ export default function Footer() {
             <div className="p-3 bg-white rounded-lg text-black font-bold">BOLETO</div>
             </div>
         </div>
-
       </div>
+      <div className=" w-11/12 border border-gray-200 border-t" />
+        <p className="text-gray-400 text-sm">© 2026 RUNMAX. Todos os direitos reservados.</p>
     </footer>
   )
 }

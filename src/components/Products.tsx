@@ -65,12 +65,12 @@ const Carrosell = () => {
 
 export default function SecondSection() {
   return (
-    <section id="produtos" className='bg-white w-full'>
+    <section id="produtos" className='bg-white w-full py-12'>
       <div className='bg-white w-11/12 flex flex-col gap-4 m-auto'>
         <div className='flex flex-row gap-2 justify-between items-center'>
           <div>
-            <span className='text-orange-500 font-semibold'>ESCOLHA O SEU</span>
-            <h2 className='text-3xl font-bold pt-2'>Nossos Tênis</h2>
+            <span className='text-orange-500 font-extrabold'>ESCOLHA O SEU</span>
+            <h2 className='text-3xl font-extrabold pt-2 mb-4'>Nossos Tênis</h2>
           </div>
           <div className='p-2 border border-black rounded-lg cursor-pointer hover:bg-gray-200 transition-colors duration-300'>
             <span className='font-semibold text-sm'>VER TODOS</span>
